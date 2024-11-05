@@ -270,13 +270,13 @@ const content = {
         "A busca por justiça, igualdade e honestidade sempre guiou minha jornada.",
       paragraph: (
         <div>
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
+          Desde o início, essas convicções me conduziram ao Direito, onde
+          encontrei não apenas uma profissão, mas uma verdadeira vocação.
           <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          Embora a graduação em Direito ofereça inúmeras possibilidades de
+          carreira, foi na advocacia que vivenciei a oportunidade de fazer a
+          diferença, atuando diretamente na defesa de direitos e na construção
+          de soluções que promovam uma sociedade mais justa.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -289,40 +289,42 @@ const content = {
           </strong>
           <br />
           <br />
-          Características como estas me guiaram até a advocacia, profissão onde
-          encontrei a verdadeira missão de resolver problemas que impactam a
-          sociedade.
+          Desde o início, essas convicções me conduziram ao Direito, onde
+          encontrei não apenas uma profissão, mas uma verdadeira vocação.
           <br />
           <br />
-          Embora o bacharelado em Direito ofereça muitas opções de carreira, foi
-          na advocacia que descobri minha vocação para atuar diretamente na
-          defesa de direitos e na construção de soluções.
+          Embora a graduação em Direito ofereça inúmeras possibilidades de
+          carreira, foi na advocacia que vivenciei a oportunidade de fazer a
+          diferença, atuando diretamente na defesa de direitos e na construção
+          de soluções que promovam uma sociedade mais justa.
           <br />
           <br />
-          Minha trajetória começou antes mesmo da formatura, quando passei no
-          exame da Ordem e concluí o curso de Direito na UNIMAR (Universidade de
-          Marília). Com experiência em diversos escritórios e uma prática sólida
-          adquirida ao longo de anos de estágio, iniciei a advocacia com o
-          compromisso de trazer resultados efetivos e soluções robustas aos meus
-          clientes.
+          Minha trajetória começou antes mesmo de concluir a formação acadêmica,
+          ao ser aprovado no exame da Ordem. Depois disso, finalizei o curso de
+          Direito pela UNIMAR (Universidade de Marília) e, ao longo da minha
+          carreira, busquei especializações em Direito Cível e Empresarial –
+          áreas que, desde o início, mostraram-me o quanto podem transformar a
+          vida das pessoas.
           <br />
           <br />
-          Buscando sempre o aprofundamento técnico, fiz uma pós-graduação em
-          Direito Civil e Empresarial, áreas que hoje são o coração da minha
-          prática. Em 2020, assumi um novo desafio ao atuar como assessor de
-          gabinete na Prefeitura de Garça (SP) e, de 2021 a 2024, ocupei o cargo
-          de Diretor Municipal de Desenvolvimento Econômico.
+          Em 2020, assumi um novo desafio como Assessor de Gabinete na
+          Prefeitura Municipal de Garça (SP), oportunidade onde participei na
+          elaboração de políticas para o povo dessa Cidade. Logo depois, fui
+          convidado a ocupar o cargo de Diretor Municipal de Desenvolvimento
+          Econômico, posição que mantive de 2021 a 2024. Essa experiência foi
+          enriquecedora, ampliando meu conhecimento em Direito Público e na área
+          empresarial, especialmente em questões de incentivo e desenvolvimento
+          econômico.
           <br />
           <br />
-          Essa experiência foi decisiva, ampliando meu conhecimento e prática em
-          Direito Público, especialmente em questões ligadas ao setor
-          empresarial, como multas, doações de áreas e cumprimento de planos de
-          negócios.
+          Hoje, dedico-me exclusivamente à advocacia, onde cada caso representa
+          uma nova oportunidade de impactar vidas e resolver problemas de forma
+          eficaz e acessível.
           <br />
           <br />
-          Hoje, cada caso é uma oportunidade de transformar e resolver, com a
-          dedicação e a experiência que adquiri em cada fase da minha
-          trajetória.
+          Estamos comprometidos em oferecer soluções que realmente fazem
+          diferença, sempre com a dedicação e a experiência que acumulei ao
+          longo dessa trajetória.
           <br />
           <br />
         </p>
