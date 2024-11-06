@@ -1,18 +1,18 @@
-import bgImg from "../assets/imgs/hero/bgHero.webp";
+import bgImg from "../assets/imgs/hero/bgHero.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "Juliano Aleixo",
+  name: "Lúcio Semenssato Advocacia",
   phone: {
-    ddd: "69",
-    firstPart: "99980", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "7532", // Apenas os 4 últimos números
+    ddd: "14",
+    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1526", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "julianoaleixoadvocacia.com.br", // Sem "www"
-  instagramProfile: "adv.julianoaleixo", // Sem o @
+  domain: "A Definir", // Sem "www"
+  instagramProfile: "A Definir", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
 };
@@ -30,13 +30,12 @@ const LpContent = {
     textArea: {
       title: (
         <h1>
-          Acabou de ser <span className="text-primary">demitido?</span> Tem
-          horas extras ou
-          <span className="text-primary"> salários atrasados</span>?
+          <span className="text-primary">Pensão Alimentícia:</span> Segurança e
+          dignidade para sua <span className="text-primary">família</span>
         </h1>
       ),
       subtitle:
-        "Direitos trabalhistas não podem ser ignorados. Nós estamos prontos para agir rápido e buscar o que é seu por direito.",
+        "Conte com orientação especializada para conquistar o que é justo e garantir o bem-estar de quem você ama.",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -44,8 +43,8 @@ const LpContent = {
   },
   features: {
     sectionHeader: {
-      miniTag: "DIREITO TRABALHISTA",
-      title: "Como podemos te ajudar?",
+      miniTag: "CONQUISTE SUA PENSÃO ALIMENTÍCIA",
+      title: "Quem pode solicitar?",
     },
     cards: {
       card1: {
@@ -60,16 +59,17 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-history"
+            class="lucide lucide-users"
           >
-            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-            <path d="M3 3v5h5" />
-            <path d="M12 7v5l4 2" />
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
           </svg>
         ),
-        title: "Hora extra e Verba rescisória",
+        title: "Cônjuges e ex-cônjuges",
         description:
-          "Se você não recebeu pelas horas extras trabalhadas ou sua rescisão foi paga de forma incompleta, entraremos com ação para garantir o pagamento integral e corrigido de seus direitos.",
+          "Se você foi casado(a) ou viveu em união estável e depende financeiramente do seu ex-parceiro, pode ter direito à pensão alimentícia.",
       },
       card2: {
         icon: (
@@ -83,16 +83,17 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-triangle-alert"
+            class="lucide lucide-person-standing"
           >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
+            <circle cx="12" cy="5" r="1" />
+            <path d="m9 20 3-6 3 6" />
+            <path d="m6 8 6 2 6-2" />
+            <path d="M12 10v4" />
           </svg>
         ),
-        title: "Insalubridade e Periculosidade",
+        title: "Filhos menores de idade",
         description:
-          "Buscaremos na justiça o adicional de insalubridade ou periculosidade que a empresa deixou de pagar, cobrando tudo que é devido.",
+          "Crianças e adolescentes têm direito à pensão alimentícia para garantir o bem-estar e suporte necessário para seu desenvolvimento.",
       },
       card3: {
         icon: (
@@ -106,17 +107,16 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-frown"
+            class="lucide lucide-lightbulb"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
-            <line x1="9" x2="9.01" y1="9" y2="9" />
-            <line x1="15" x2="15.01" y1="9" y2="9" />
+            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+            <path d="M9 18h6" />
+            <path d="M10 22h4" />
           </svg>
         ),
-        title: "Assédio Moral",
+        title: "Filhos com deficiência ou necessidades especiais",
         description:
-          "Sofreu abusos no trabalho? Uma ação de assédio moral com foco em reparar os danos sofridos, garantindo justiça e dignidade para você.",
+          "Se você é responsável por um filho com deficiência ou necessidades especiais, a pensão alimentícia é um direito essencial para garantir os cuidados e o acompanhamento que ele precisa.",
       },
       card4: {
         icon: (
@@ -130,16 +130,15 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign"
+            class="lucide lucide-ban"
           >
             <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m4.9 4.9 14.2 14.2" />
           </svg>
         ),
-        title: "Atraso Salarial",
+        title: "Pensão negada ou insuficiente",
         description:
-          "Acionamos judicialmente a empresa para que os valores sejam pagos com correção, assegurando seu sustento sem mais demora.",
+          "Se o valor da pensão é insuficiente ou o pedido foi negado, conte com suporte especializado para garantir uma revisão justa e assegurar os direitos da sua família.",
       },
     },
   },
@@ -150,23 +149,25 @@ const LpContent = {
       alt: "Logomarca",
     },
     sectionHeader: {
-      miniTag: "TRADIÇÃO EM DIREITO TRABALHISTA",
-      title: "Quem é Dr Juliano Aleixo",
+      miniTag: "REFERÊNCIA EM PENSÃO ALIMENTÍCIA",
+      title: "Comprometimento e agilidade",
     },
     paragraph: (
       <p>
         Na minha rotina diária, entendo que rapidez é fundamental para nossos
-        clientes, especialmente em questões trabalhistas. Por isso, atuo de
+        clientes, especialmente em questões previdenciárias. Por isso, atuo de
         forma ágil e estratégica, sem comprometer a qualidade. Com foco em
         garantir que seus direitos sejam resguardados com eficiência e
-        determinação. <br />
-        <br /> Independentemente do seu problema trabalhista, estou pronto para
-        oferecer a melhor solução jurídica. Entre em contato com Juliano Aleixo
-        Advocacia e veja como podemos ser decisivos na defesa dos seus direitos.
+        determinação.
+        <br />
+        <br /> Independentemente do seu problema previdenciário, estou pronto
+        para oferecer a melhor solução jurídica. Entre em contato com Juliano
+        Aleixo Advocacia e veja como podemos ser decisivos na defesa dos seus
+        direitos.
       </p>
     ),
-    buttonLabel: "Quero falar com um especialista",
-    ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",
+    buttonLabel: "Falar com especialista",
+    ctaButtonAriaLabel: "Botão para falar com um whatsapp",
   },
   whyUs: {
     sectionHeader: {
@@ -175,6 +176,52 @@ const LpContent = {
     },
     cards: {
       card1: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hourglass"
+          >
+            <path d="M5 22h14" />
+            <path d="M5 2h14" />
+            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
+            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+          </svg>
+        ),
+        title: "Experiência comprovada",
+        description:
+          "Com sólida experiência em ações de pensão alimentícia, atuo de forma firme e segura para garantir que seus direitos sejam protegidos. Confie em um profissional que sabe o que fazer para obter os resultados que você merece.",
+      },
+      card2: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-headset"
+          >
+            <path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z" />
+            <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+          </svg>
+        ),
+        title: "Atendimento dedicado",
+        description:
+          "Cada cliente é prioridade absoluta. Trato cada caso com atenção total e respeito, acompanhando você em todas as etapas do processo para que tenha o suporte e a segurança necessários.",
+      },
+      card3: {
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -199,59 +246,9 @@ const LpContent = {
             <path d="M19.967 17.484A4 4 0 0 1 18 18" />
           </svg>
         ),
-        title: "Estratégia personalizada para garantir seus direitos",
+        title: "Estratégia personalizada",
         description:
-          "Oferecemos uma análise detalhada do seu caso trabalhista, criando a melhor estratégia para você sair vitorioso.",
-      },
-      card2: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-ruler"
-          >
-            <path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z" />
-            <path d="m14.5 12.5 2-2" />
-            <path d="m11.5 9.5 2-2" />
-            <path d="m8.5 6.5 2-2" />
-            <path d="m17.5 15.5 2-2" />
-          </svg>
-        ),
-        title: "Soluções sob medida para o seu problema",
-        description:
-          "Seu caso é único, e nós desenvolvemos um plano de ação específico para resolver suas questões trabalhistas com agilidade.",
-      },
-      card3: {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-handshake"
-          >
-            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
-            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
-            <path d="m21 3 1 11h-2" />
-            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
-            <path d="M3 4h8" />
-          </svg>
-        ),
-        title: "Compromisso total com sua causa",
-        description:
-          "Lutamos de forma incansável pelos seus direitos, buscando a solução mais favorável para você em cada etapa do processo.",
+          "Entendo que cada caso é único, por isso desenvolvo estratégias precisas e específicas para sua situação, garantindo uma defesa sólida e imbatível, sempre focada em proteger seus interesses.",
       },
       card4: {
         icon: (
@@ -265,17 +262,18 @@ const LpContent = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-hourglass"
+            class="lucide lucide-scale"
           >
-            <path d="M5 22h14" />
-            <path d="M5 2h14" />
-            <path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" />
-            <path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
-        title: "Experiência que traz tranquilidade",
+        title: "Compromisso com a justiça e a ética",
         description:
-          "Nossa expertise garante que seu caso será tratado com segurança e confiança, assegurando a proteção total dos seus direitos trabalhistas.",
+          "Estou aqui para defender você com integridade e transparência. Meu compromisso é buscar uma solução justa e equilibrada, oferecendo a tranquilidade de saber que sua defesa está em mãos seguras e confiáveis.",
       },
     },
   },
@@ -283,8 +281,8 @@ const LpContent = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA MAIS TEMPO",
-      title: "Seja ressarcido por prejuízos trabalhistas agora mesmo!",
-      subtitle: `O escritório Juliano Aleixo Advocacia está pronto para te auxiliar. Nossa equipe especializada em direito trabalhista pode orientá-lo no processo para garantir sua indenização por demissões indevidas, salários atrasados ou qualquer violação de direitos. Não deixe que essas situações prejudiquem sua vida profissional.`,
+      title: "Garanta sua pensão alimentícia agora mesmo!",
+      subtitle: `O escritório Lúcio Semenssato Advocacia está aqui para defender seus direitos. Com nossa especialização em ações de pensão alimentícia, orientamos você em todas as etapas para assegurar que a pensão seja concedida de forma justa e rápida. Não deixe que questões financeiras ou burocráticas atrapalhem o acesso ao suporte que você e sua família merecem.`,
     },
     buttonLabel: "Quero falar com um especialista",
     ctaButtonAriaLabel: "Botão para chamada de ação para contato pelo whatsapp",

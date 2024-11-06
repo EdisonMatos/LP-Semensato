@@ -33,7 +33,7 @@ export default function Features({ modal }) {
 
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
-            <div className="flex flex-wrap items-center justify-center w-full gap-[10px]">
+            <div className="flex flex-wrap items-center justify-center w-full gap-[40px]">
               <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card1.icon}

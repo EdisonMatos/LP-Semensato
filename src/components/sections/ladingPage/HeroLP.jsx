@@ -24,7 +24,7 @@ export default function HeroLP() {
                   <img
                     src={LpContent.hero.logo.logoImg}
                     alt={LpContent.hero.logo.alt}
-                    className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[360px]"
+                    className="invert mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[360px]"
                   />
                 </MotionDivDownToUp>
                 {/* <MotionDivDownToUp>
