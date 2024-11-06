@@ -8,7 +8,7 @@ export default function IconButtonFeatureCard(props) {
       <div className="h-[64px] w-[64px] mb-[24px]  rounded-md flex justify-center items-center text-secondary">
         {icon}
       </div>
-      <h1 className="h-auto font-bold font-mainFont text-title3 text-center mb-[16px] text-secondary">
+      <h1 className="h-auto font-bold font-mainFont text-title1 text-center mb-[16px] text-secondary">
         {title}
       </h1>
       <p className="text-center text-black opacity-70 font-mainFont w-[90%] pb-4">
