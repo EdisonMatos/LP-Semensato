@@ -22,7 +22,7 @@ export default function AboutParalaxeLP() {
                 <img
                   src={LpContent.about.logo.logoImg}
                   alt={LpContent.about.logo.alt}
-                  className="w-[90%] tablet2:w-[30%] desktop1:w-[40%]"
+                  className="invert w-[90%] tablet2:w-[30%] desktop1:w-[40%]"
                 />
                 <div className="tablet2:w-[60%]">
                   <SectionHeader
