@@ -6,6 +6,7 @@ export default function WhatsChat() {
     <div>
       <FloatingWhatsApp
         phoneNumber="5514998101526" // Required
+        notificationDelay={5}
         accountName="Dr. Lúcio Semenssato" // Optional
         avatar={imgProfilePicture} // Optional
         initialMessageByServer="Olá! Tudo bem? Gostaria de falar comigo agora mesmo? Clique no botão abaixo 👇" // Optional
