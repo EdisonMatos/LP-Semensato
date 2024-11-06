@@ -346,10 +346,8 @@ const content = {
     cta: {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
-      title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      title: "Está com um problema e precisa de ajuda? ",
+      subtitle: "Entre em contato para agendar uma reunião.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
@@ -379,9 +377,9 @@ const content = {
         },
         card4: {
           stepNumber: 4,
-          cardTitle: "Ação legal",
+          cardTitle: "Procedimento eficaz",
           cardDescription:
-            "Iniciamos as ações judiciais necessárias para buscar sua solução.",
+            "Iniciamos ações pautadas na resolução do problema, judiciais e extrajudiciais.",
         },
       },
     },

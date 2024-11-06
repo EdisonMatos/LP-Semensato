@@ -5,6 +5,7 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 import content from "../../content/content";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -25,7 +26,7 @@ export default function Cta() {
             sectionHeaderSubtitle={content.texts.cta.subtitle}
             color="dark"
           />
-          <Button
+          <ButtonCustom
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.cta.ctaButtonText}
             buttonLink={whatsappContactLink}

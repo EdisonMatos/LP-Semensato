@@ -12,6 +12,7 @@ module.exports = {
         buttonColor: "#D0B160", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
+        ctaButtons: "#1F9F4F",
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],

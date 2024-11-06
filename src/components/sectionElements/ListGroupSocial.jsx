@@ -3,6 +3,7 @@ import content from "../../content/content";
 import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -192,7 +193,7 @@ export default function ListGroupSocial({ LightMode }) {
       </li>
       <li>
         <div className="flex gap-[10px] items-center">
-          <Button
+          <ButtonCustom
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
             buttonLink={whatsappContactLink}

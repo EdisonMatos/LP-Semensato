@@ -6,6 +6,7 @@ import SidebarSocial from "../sectionElements/SidebarSocial";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -121,7 +122,7 @@ export default function NavbarSocial({ LightMode }) {
                 scrolling ? "" : ""
               }`}
             >
-              <Button
+              <ButtonCustom
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 buttonLink={whatsappContactLink}
