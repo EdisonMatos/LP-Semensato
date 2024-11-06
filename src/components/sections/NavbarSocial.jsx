@@ -6,6 +6,7 @@ import SidebarSocial from "../sectionElements/SidebarSocial";
 import content from "../../content/content";
 import Button from "../interactives/Button";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -108,7 +109,7 @@ export default function NavbarSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
-                    : "bg-white rounded-xl w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[70%] desktop2:w-[100%] px-3 py-3 transition-all duration-1000"
+                    : "invert w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[70%] desktop2:w-[100%] px-3 py-3 transition-all duration-1000"
                   : scrolling
                   ? "bg-transparent w-[50%] tablet1:w-[50%] tablet2:w-[40%] desktop1:w-[60%] desktop2:w-[60%] transition-all duration-1000"
                   : "bg-transparent w-[64%] my-[20px] tablet1:w-[55%] tablet2:w-[47%] desktop1:w-[70%] desktop2:w-[100%] transition-all duration-1000"
@@ -121,7 +122,7 @@ export default function NavbarSocial({ LightMode }) {
                 scrolling ? "" : ""
               }`}
             >
-              <Button
+              <ButtonCustom
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
                 buttonLink={whatsappContactLink}

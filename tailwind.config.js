@@ -7,11 +7,12 @@ module.exports = {
         primary: "#DBB14C", // Com primária (variação clara)
         secondary: "#191919", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
-        bgSectionDark: "#2E030A",
+        bgSectionDark: "#2D4A5F",
         links: "#0189BB", // Links
         buttonColor: "#D0B160", // Botões
         lighter: "#FFFFFF",
         darker: "#000000",
+        ctaButtons: "#1F9F4F",
       },
       fontFamily: {
         mainFont: ["Poppins", "sans-serif"],

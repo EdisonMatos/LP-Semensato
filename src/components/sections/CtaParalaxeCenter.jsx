@@ -3,6 +3,7 @@ import SectionContent from "../sectionElements/SectionContent";
 import MotionDivUpToDown from "../animation/MotionDivUpToDown";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -29,7 +30,7 @@ export default function CtaParalaxeCenter() {
                   </h1>
                   <MotionDivDownToUp>
                     <div className="w-full">
-                      <Button
+                      <ButtonCustom
                         className="invert"
                         label={content.texts.cta.ctaButtonText}
                         buttonLink={whatsappContactLink}

@@ -9,6 +9,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -45,7 +46,7 @@ export default function Hero() {
               </MotionDivDownToUp>
               <div className="w-full phone2:w-full tablet2:w-auto">
                 <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
-                  <Button
+                  <ButtonCustom
                     aria-label={content.texts.hero.ctaButtonAriaLabel}
                     label={content.texts.hero.ctaButtonText}
                     buttonLink={whatsappContactLink}
@@ -112,11 +113,11 @@ export default function Hero() {
                     backgroundSize: "",
                   }}
                 ></div>
-                {/* <img
+                <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-30 right-[-15px] top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
-                ></img> */}
+                ></img>
               </MotionDivDownToUp>
             </div>
           </div>

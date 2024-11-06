@@ -16,6 +16,7 @@ import AboutFading from "../sectionElements/AboutFading";
 import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonCustom from "../interactives/ButtonCustom";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -31,7 +32,7 @@ export default function About({ modal }) {
         {content.texts.about.modal}
         <p className="mb-[20px]">Quer saber mais sobre nós? Clique abaixo 👇</p>
         <div>
-          <Button
+          <ButtonCustom
             aria-label={content.texts.about.ctaButtonAriaLabel}
             label={content.texts.about.ctaButtonText}
             buttonLink={whatsappContactLink}
