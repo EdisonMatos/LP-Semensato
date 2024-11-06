@@ -10,6 +10,7 @@ import FooterSocial from "../components/sections/FooterSocial";
 
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import BackToTopButton from "../components/interactives/BackToTopButton";
+import WhatsChat from "../components/interactives/WhatsChat";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -30,7 +31,8 @@ export default function Index() {
       <Steps />
       <Faq />
       <FooterSocial obs={false} addres={false} />
-      <FloatingWhatsappButton />
+      <WhatsChat />
+      {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
     </div>
   );
