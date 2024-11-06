@@ -4,11 +4,11 @@ import logo from "../assets/imgs/logo/logo.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "A Definir",
+  name: "Lúcio Semenssato Advocacia",
   phone: {
-    ddd: "A Definir",
-    firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "A Definir", // Apenas os 4 últimos números
+    ddd: "14",
+    firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "1526", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
   domain: "A Definir", // Sem "www"
