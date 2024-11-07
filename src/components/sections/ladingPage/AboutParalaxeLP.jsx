@@ -1,5 +1,6 @@
 import LpContent from "../../../content/LpContent";
 import Button from "../../interactives/Button";
+import ButtonCustom from "../../interactives/ButtonCustom";
 import SectionArea from "../../sectionElements/SectionArea";
 import SectionHeader from "../../sectionElements/SectionHeader";
 import SectionWrapper from "../../sectionElements/SectionWrapper";
@@ -36,7 +37,7 @@ export default function AboutParalaxeLP() {
                     {LpContent.about.paragraph}
                   </p>
                   <div className="w-full">
-                    <Button
+                    <ButtonCustom
                       aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
                       label={LpContent.about.buttonLabel}
                       buttonLink={LpContent.links.ctaWhatsapp}
