@@ -4,7 +4,7 @@ import logo from "../assets/imgs/logo/logo.png";
 const currentYear = new Date().getFullYear();
 
 const infos = {
-  name: "A Definir",
+  name: "Lúcio Semenssato Advocacia",
   phone: {
     ddd: "A Definir",
     firstPart: "A Definir", // Apenas os 5 primeiros números (incluindo o 9)
@@ -19,7 +19,7 @@ const infos = {
 
 const LpContent = {
   infos: {
-    name: "A Definir",
+    name: "Lúcio Semenssato Advocacia",
   },
   hero: {
     bgImg: bgImg,
@@ -30,11 +30,12 @@ const LpContent = {
     textArea: {
       title: (
         <h1>
-          A Definir <span className="text-primary">A Definir</span> A Definir
-          <span className="text-primary"> A Definir</span>?
+          Devolva seu imóvel e{" "}
+          <span className="text-primary">recupere parcelas</span>
         </h1>
       ),
-      subtitle: "A Definir",
+      subtitle:
+        "Entenda como devolver seu terreno financiado, interromper as parcelas e recuperar valores pagos, com total apoio jurídico e sem complicação.",
       buttonLabel: "Quero falar com um especialista",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
