@@ -3,6 +3,7 @@ import SectionWrapper from "../../animation/MotionDivDownToUp";
 import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
 import Button from "../../interactives/Button";
 import LpContent from "../../../content/LpContent";
+import ButtonCustom from "../../interactives/ButtonCustom";
 
 export default function HeroLP() {
   return (
@@ -48,7 +49,7 @@ export default function HeroLP() {
                 </MotionDivDownToUp>
                 <div className="w-full phone2:w-full tablet2:w-auto">
                   <div className="flex justify-center w-full desktop1:justify-start">
-                    <Button
+                    <ButtonCustom
                       aria-label={LpContent.hero.textArea.ctaButtonAriaLabel}
                       label={LpContent.hero.textArea.buttonLabel}
                       buttonLink={LpContent.links.ctaWhatsapp}
