@@ -21,6 +21,10 @@ import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
+import featuresImg5 from "../assets/imgs/features/imgFeatures5.jpg";
+import featuresImg6 from "../assets/imgs/features/imgFeatures6.jpg";
+import featuresImg7 from "../assets/imgs/features/imgFeatures7.jpg";
+import featuresImg8 from "../assets/imgs/features/imgFeatures8.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.png";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.png";
@@ -136,11 +140,11 @@ const content = {
             height="24"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#dbb14c"
+            stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-map-pin"
+            class="lucide lucide-map-pin text-primary"
           >
             <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
             <circle cx="12" cy="10" r="3" />
@@ -181,7 +185,7 @@ const content = {
       card1: {
         img: featuresImg1,
         title: "Direito de Família",
-        subtitle: "Experiência em divórcio, guarda e revisão de pensão.",
+        subtitle: "Apoio em divórcios, guarda de filhos e pensão alimentícia.",
         description: (
           <div>
             A Definir <br />
@@ -190,7 +194,24 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal1,
         icon: (
-          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgNTExLjk5OSA1MTEuOTk5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCBkPSJNMTE3Ljc3NiAxNzQuMzQ1Yy0zLjktMy45LTEwLjI0LTMuOS0xNC4xMzkgMC0zLjkxIDMuOTEtMy45MSAxMC4yNCAwIDE0LjE0IDMuOSAzLjkxIDEwLjI0IDMuOTEgMTQuMTM5IDAgMy45MDktMy45IDMuOTA5LTEwLjIzIDAtMTQuMTR6TTI1My4xOTkgNDQ3LjcxOGM0LjQwOS01Ljk3MiA2Ljc5Mi0xMy4xNjcgNi43OTItMjAuNzMyIDAtMTkuMjk4LTE1LjctMzQuOTk5LTM0Ljk5OS0zNC45OTlINTQuOTk4Yy05LjM1MyAwLTE4LjE0MiAzLjY0LTI0Ljc0OSAxMC4yNDktNi42MSA2LjYwOC0xMC4yNSAxNS4zOTctMTAuMjUgMjQuNzVhMzQuODEgMzQuODEgMCAwIDAgNi44MTUgMjAuNzJDMTAuODkxIDQ1Ni4wNzggMCA0NzIuNzc4IDAgNDkxLjk4M3YxMGMwIDUuNTIzIDQuNDc4IDEwIDEwIDEwaDI1OS45OWM1LjUyMiAwIDEwLTQuNDc3IDEwLTEwdi0xMGMwLTE5LjE5Ni0xMC44OC0zNS44ODktMjYuNzkxLTQ0LjI2NXpNNDQuMzkgNDE2LjM3NmExNC45IDE0LjkgMCAwIDEgMTAuNjA4LTQuMzkxaDE2OS45OTRjOC4yNzEgMCAxNC45OTkgNi43MjkgMTQuOTk5IDE0Ljk5OSAwIDQuMDEtMS41NiA3Ljc3Ny00LjM5MiAxMC42MDlhMTQuOSAxNC45IDAgMCAxLTEwLjYwOCA0LjM5MUg1NC45OThjLTguMjcxIDAtMTQuOTk5LTYuNzI5LTE0Ljk5OS0xNC45OTkgMC00LjAwOSAxLjU1OS03Ljc3NyA0LjM5MS0xMC42MDl6bS0yNC4zOTEgNzUuNjA3YzAtMTYuNTQxIDEzLjQ1OC0yOS45OTkgMjkuOTk5LTI5Ljk5OWgxNzkuOTk0YzE2LjU0MSAwIDI5Ljk5OSAxMy40NTggMjkuOTk5IDI5Ljk5OUgxOS45OTl6IiBmaWxsPSIjMmQ0YTVmIiBvcGFjaXR5PSIxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggZD0iTTUwMi42OTMgNDIwLjEyNGMtMy4zOTYtNS4yNjMtNy40NDgtOS45MTctMTIuMDQ1LTEzLjgzM2wtNDYuNzI1LTQwLjc1M2ExMC4wNyAxMC4wNyAwIDAgMC0xLjI2OS0xLjU1MSA5Ljk3MiA5Ljk3MiAwIDAgMC0yLjcxLTEuOTE4bC0yOC4yNTctMjQuNjQ1LTEzMC43OS0xMTQuMDkxYzUuMzU0LTUuNTk3IDguMzAyLTEyLjkxNiA4LjMwMi0yMC42OTkgMC04LjAxOC0zLjEyMS0xNS41NTMtOC43OTQtMjEuMjI1YTI5LjY5IDI5LjY5IDAgMCAwLTguMjkxLTUuODM3bDEyLjEtMTIuMWE0MC4yNDIgNDAuMjQyIDAgMCAwIDEwLjMzNSAxLjM1OWMxMC4yNDEtLjAwMSAyMC40ODMtMy44OTkgMjguMjc5LTExLjY5NSA3LjU1OC03LjU1NyAxMS43Mi0xNy42MDIgMTEuNzItMjguMjg1cy00LjE2Mi0yMC43MjgtMTEuNzE5LTI4LjI4NUwyMzcuOTgxIDExLjcyQzIzMC40MjQgNC4xNjMgMjIwLjM3OC4wMDEgMjA5LjY5Mi4wMDFjLTEwLjY4MSAwLTIwLjcyNCA0LjE2Mi0yOC4yOCAxMS43MTktMTAuNDQ0IDEwLjQ0NC0xMy44ODIgMjUuMjczLTEwLjMzNiAzOC42MTVMNTAuMzUxIDE3MS4wNTlhNDAuMjQ2IDQwLjI0NiAwIDAgMC0xMC4zNTMtMS4zNTVjLTEwLjY4OCAwLTIwLjcyOSA0LjE1OS0yOC4yOCAxMS43MDktMTUuNTk2IDE1LjU5Ni0xNS41OTYgNDAuOTczIDAgNTYuNTdsODQuODQ3IDg0Ljg0OGM3Ljc5OSA3Ljc5OCAxOC4wNDIgMTEuNjk3IDI4LjI4NSAxMS42OTcgMTAuMjQ0IDAgMjAuNDg3LTMuODk5IDI4LjI4Ni0xMS42OTcgMTAuNDQ0LTEwLjQ0NSAxMy44ODItMjUuMjczIDEwLjMzNi0zOC42MTVsMTIuMDc1LTEyLjA3NmEzMC4wMTYgMzAuMDE2IDAgMCAwIDUuODY2IDguMjcxYzUuNjY2IDUuNjY2IDEzLjE5OSA4Ljc4NyAyMS4yMTUgOC43ODcgNy43NzUgMCAxNS4wOTEtMi45NDMgMjAuNjk2LTguMjkxTDM2Mi42MyA0NDAuOTYxYy4zODQuNi44MzIgMS4xNzEgMS4zNTYgMS42OTUuMTc5LjE3OS4zNjkuMzQyLjU1OC41MDRsNDEuNTExIDQ3LjY5NGE1OC45NTggNTguOTU4IDAgMCAwIDMuMjggMy41NjFjMTEuNDAxIDExLjM5NyAyNi40NiAxNy41ODIgNDIuMjcgMTcuNTgyIDIuNzg3IDAgNS42LS4xOTIgOC40MTctLjU4MiAxOC44MjktMi42MDYgMzUuMTAyLTEzLjg3IDQ0LjY0NC0zMC45MDggMTAuNDUzLTE4LjY3MyA5LjY3NS00Mi4zOC0xLjk3My02MC4zODN6TTE5NS41NTUgMjUuODYyYTE5Ljg2OCAxOS44NjggMCAwIDEgMTQuMTM4LTUuODYxIDE5Ljg3NSAxOS44NzUgMCAwIDEgMTQuMTQ3IDUuODYxbDg0Ljg0OCA4NC44NDdhMTkuODcyIDE5Ljg3MiAwIDAgMSA1Ljg2IDE0LjE0MyAxOS44NjggMTkuODY4IDAgMCAxLTUuODYxIDE0LjE0M2MtNy43OTUgNy43OTctMjAuNDgxIDcuNzk3LTI4LjI3NiAwTDE5NS41NiA1NC4xNDRsLS4wMDUtLjAwNWMtNy43OTctNy43OTYtNy43OTctMjAuNDgxIDAtMjguMjc3em0tNTYuNTYxIDI4Mi44MjdjLTcuNzk4IDcuNzk4LTIwLjQ4OSA3Ljc5OS0yOC4yODcgMEwyNS44NiAyMjMuODQyYy03Ljc5OS03Ljc5OS03Ljc5OS0yMC40ODcgMC0yOC4yODcgMy43NzItMy43NzMgOC43OTQtNS44NTEgMTQuMTM4LTUuODUxIDUuMzQzIDAgMTAuMzYyIDIuMDc3IDE0LjEzMyA1Ljg0N2w4NC44NjIgODQuODYyYzcuNzk4IDcuNzk1IDcuNzk4IDIwLjQ4MS4wMDEgMjguMjc2em00Mi4xMDItNzAuMzgtMjcuOTYxIDI3Ljk2Mi04NC44NTYtODQuODU2TDE4MS40MTIgNjguMjhsODQuODU1IDg0Ljg1Ni0yOC4wMTIgMjguMDEzYy0uMDkxLjA4Ni0uMTguMTctLjI3Ni4yNjVsLTU2LjUzOCA1Ni41MzljLS4xMTcuMTE1LS4yMy4yMzUtLjM0NS4zNTZ6bTM1LjcwNiAyMC44NjEtLjA1OS4wNTktNy4wNDIgNy4wNDJhOS45MzkgOS45MzkgMCAwIDEtNy4wNzQgMi45MjggOS45MzMgOS45MzMgMCAwIDEtNy4wNzMtMi45MjkgOS45NDIgOS45NDIgMCAwIDEtMi45MzItNy4wNzljMC0yLjYxOC45OTktNS4wODEgMi44MTItNi45MzlsNTYuODAxLTU2LjgwMWMzLjg5My0zLjc4NiAxMC4xODctMy43MzkgMTQuMDM0LjEwNGE5Ljk0NSA5Ljk0NSAwIDAgMSAyLjkzMSA3LjA3OSA5LjkwOCA5LjkwOCAwIDAgMS0yLjkzMiA3LjA2OWwtNy4wMDEgNy4wMDFhOS42NCA5LjY0IDAgMCAwLS4xNDMuMTQzbC00Mi4zMjIgNDIuMzIzem0yMC43MDggNy41NzUgMjkuMjI2LTI5LjIyNiAxMjMuNzQyIDEwNy45MzUtNDUuMTU0IDQ1LjE1NUwyMzcuNTEgMjY2Ljc0NXptMTIwLjk3NSAxMzguOTg2IDQ3LjA5OS00Ny4xIDE1LjEwNyAxMy4xNzctNDkuMDQ1IDQ5LjA0Ni0xMy4xNjEtMTUuMTIzem0xMjguNzMyIDY1LjAwNmMtNi40NTQgMTEuNTIzLTE3LjM2NSAxOS4xMjgtMjkuOTM2IDIwLjg2OC0xMi41NDIgMS43MzYtMjQuODY1LTIuMzk1LTMzLjgwNy0xMS4zMzNhMzguNDIxIDM4LjQyMSAwIDAgMS0yLjE5MS0yLjM4MWwtLjA5Ny0uMTEzLTM2LjM4LTQxLjgwMiA1MC45OTEtNTAuOTkyIDQxLjc1IDM2LjQxNy4wOTYuMDgzYzMuMTI1IDIuNjU3IDUuODk4IDUuODQ4IDguMjUxIDkuNDk0IDcuNTYyIDExLjY4NSA4LjA5MiAyNy42NjUgMS4zMjMgMzkuNzU5eiIgZmlsbD0iIzJkNGE1ZiIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9IiI+PC9wYXRoPjxwYXRoIGQ9Ik0xODguNDg0IDEwMy42MzZjLTMuOTA2LTMuOTA1LTEwLjIzNi0zLjkwNS0xNC4xNDIgMGwtNDIuNDI4IDQyLjQyOGMtMy45MDUgMy45MDUtMy45MDUgMTAuMjM3IDAgMTQuMTQxYTkuOTY4IDkuOTY4IDAgMCAwIDcuMDcxIDIuOTI5IDkuOTcyIDkuOTcyIDAgMCAwIDcuMDcxLTIuOTI5bDQyLjQyOC00Mi40MjhjMy45MDUtMy45MDQgMy45MDUtMTAuMjM1IDAtMTQuMTQxeiIgZmlsbD0iIzJkNGE1ZiIgb3BhY2l0eT0iMSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale text-[#2b6089]"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
         ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
@@ -198,7 +219,8 @@ const content = {
       card2: {
         img: featuresImg2,
         title: "Direito Empresarial",
-        subtitle: "Suporte em crédito, penhora e pesquisa extrajudicial.",
+        subtitle:
+          "Consultoria em contratos, recuperação de crédito e penhoras.",
         description: (
           <div>
             A Definir <br />
@@ -207,14 +229,36 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Building2 />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-building-2 text-[#2b6089]"
+          >
+            <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+            <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+            <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            <path d="M10 6h4" />
+            <path d="M10 10h4" />
+            <path d="M10 14h4" />
+            <path d="M10 18h4" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card3: {
         img: featuresImg3,
         title: "Direito Trabalhista",
-        subtitle: "Defesa trabalhista com cálculos e orientações precisas.",
+        subtitle:
+          "Assessoria em disputas trabalhistas e direitos do trabalhador.",
         description: (
           <div>
             A Definir <br />
@@ -222,14 +266,32 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <Pickaxe />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pickaxe text-[#2b6089]"
+          >
+            <path d="M14.531 12.469 6.619 20.38a1 1 0 1 1-3-3l7.912-7.912" />
+            <path d="M15.686 4.314A12.5 12.5 0 0 0 5.461 2.958 1 1 0 0 0 5.58 4.71a22 22 0 0 1 6.318 3.393" />
+            <path d="M17.7 3.7a1 1 0 0 0-1.4 0l-4.6 4.6a1 1 0 0 0 0 1.4l2.6 2.6a1 1 0 0 0 1.4 0l4.6-4.6a1 1 0 0 0 0-1.4z" />
+            <path d="M19.686 8.314a12.501 12.501 0 0 1 1.356 10.225 1 1 0 0 1-1.751-.119 22 22 0 0 0-3.393-6.319" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
       card4: {
         img: featuresImg4,
-        title: "Defesa do Devedor",
-        subtitle: "Proteção ao devedor: revisão de contratos e dívidas.",
+        title: "Direito Administrativo Municipal",
+        subtitle: "Aconselhamento em processos e contratos administrativos.",
         description: (
           <div>
             A Definir <br />
@@ -239,7 +301,161 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Wallet />,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-school text-[#2b6089]"
+          >
+            <path d="M14 22v-4a2 2 0 1 0-4 0v4" />
+            <path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2" />
+            <path d="M18 5v17" />
+            <path d="m4 6 8-4 8 4" />
+            <path d="M6 5v17" />
+            <circle cx="12" cy="9" r="2" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card5: {
+        img: featuresImg5,
+        title: "Defesa do Devedor",
+        subtitle:
+          "Estratégias de defesa e renegociação de dívidas e contratos.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-wallet text-[#2b6089]"
+          >
+            <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
+            <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card6: {
+        img: featuresImg6,
+        title: "Direito do Consumidor",
+        subtitle: "Atuação em defesa de direitos e danos materiais e morais.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag text-[#2b6089]"
+          >
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card7: {
+        img: featuresImg7,
+        title: "Direito Cível",
+        subtitle:
+          "Assistência em indenizações por acidentes e disputas patrimoniais.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-user text-[#2b6089]"
+          >
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card8: {
+        img: featuresImg8,
+        title: "Direito Previdenciário",
+        subtitle:
+          "Orientação em pedidos de aposentadoria e benefícios sociais.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-heart text-[#2b6089]"
+          >
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+          </svg>
+        ),
         buttonLabelModal: "A Definir",
         buttonLabel: "A Definir",
       },
