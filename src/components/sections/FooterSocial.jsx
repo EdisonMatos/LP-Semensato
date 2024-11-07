@@ -35,7 +35,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
                     // className="max-h-[88px] w-auto  p-[12px]"
-                    className="max-h-[88px] w-auto bg-white p-[12px]"
+                    className="max-h-[88px] w-auto invert"
                     // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
                   ></img>
                 </div>
