@@ -1,4 +1,4 @@
-import bgImg from "../assets/imgs/hero/bgHero.jpg";
+import bgImg from "../assets/imgs/hero/bgHouse.jpg";
 import logo from "../assets/imgs/logo/logo.png";
 
 const currentYear = new Date().getFullYear();
