@@ -100,14 +100,14 @@ export default function Hero() {
               </div> */}
             </div>
             <div className="flex justify-center w-full desktop1:w-[42%] desktop2:w-[42.8%]">
-              <MotionDivDownToUp className="relative flex justify-end w-full ">
+              <MotionDivDownToUp className="relative flex justify-center w-full desktop1:justify-end ">
                 {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[400px] bg-cover bg-no-repeat"
+                  className="bg-center rounded-xl w-full max-w-[380px] h-[320px] phone2:h-[350px] tablet1:h-[380px] desktop1:max-w-[480px] desktop1:h-[400px] bg-cover bg-no-repeat "
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
