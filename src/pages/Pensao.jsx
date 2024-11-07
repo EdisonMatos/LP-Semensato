@@ -21,7 +21,7 @@ export default function Pensao() {
       <FooterLP />
       <WhatsChat />
       {/* <LPFloatingWhatsappButton /> */}
-      {/* <BackToTopButton /> */}
+      <BackToTopButton />
     </div>
   );
 }
