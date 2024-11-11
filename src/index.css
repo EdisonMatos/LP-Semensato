@@ -60,5 +60,33 @@
   animation: fadeOut 1s ease-in-out;
 }
 
+/* WhatsChat */
 
+@media (max-width: 374px) {
+  ._chatHeader_181xn_163 {
+    gap: 0px !important;
+    padding: 9px !important;
+  }
 
+  ._chatHeader_181xn_163 ._avatar_181xn_181 {
+    width: 60px;
+  }
+
+  ._avatar_181xn_181 img {
+    width: 60px;
+  }
+
+  ._status_181xn_229 {
+    width: 90%; 
+    margin-left: 5px;
+    font-size: 12px !important;
+  }
+
+  div._message_181xn_435 {
+    max-width: 175px !important;
+  }
+
+  ._messageBody_181xn_471 {
+    width: 100%;
+  }
+}
