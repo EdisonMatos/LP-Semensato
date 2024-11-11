@@ -90,3 +90,20 @@
     width: 100%;
   }
 }
+
+/* chat ou redirecionamento */
+.floating-chat {
+  position: relative;
+  display: inline-block;
+}
+
+/* Quando isChatEnabled é false, o botão age como um link */
+.whatsapp-redirect {
+  text-decoration: none;
+  pointer-events: all;
+}
+
+/* Oculta qualquer chatbox ou conteúdo adicional */
+.whatsapp-redirect .floating-chatbox {
+  display: none !important;
+}
