@@ -1,6 +1,9 @@
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import imgProfilePicture from "../../assets/imgs/about/profile.jpg";
 import "../../../src/index.css";
+import content from "../../content/content";
+
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function WhatsChat({ noChat }) {
   return (
@@ -9,7 +12,7 @@ export default function WhatsChat({ noChat }) {
         <FloatingWhatsApp
           status="w-3"
           chatboxHeight="auto"
-          phoneNumber="5514998101526"
+          phoneNumber={whatsappContactLink}
           notificationDelay={5}
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
@@ -27,13 +30,13 @@ export default function WhatsChat({ noChat }) {
         />
       ) : (
         <a
-          href="https://wa.me/5514998101526"
+          href={whatsappContactLink}
           target="_blank"
           rel="noopener noreferrer"
           className="floating-chat whatsapp-redirect"
         >
           <FloatingWhatsApp
-            phoneNumber="5514998101526"
+            phoneNumber={whatsappContactLink}
             accountName="Dr. Lúcio Semenssato"
             avatar={imgProfilePicture}
             tooltipText={
