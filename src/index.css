@@ -77,7 +77,7 @@
   }
 
   ._status_181xn_229 {
-    width: 90%; 
+    width: 90%;
     margin-left: 5px;
     font-size: 12px !important;
   }
@@ -89,6 +89,16 @@
   ._messageBody_181xn_471 {
     width: 100%;
   }
+
+  ._tooltip_181xn_903 {
+    position: absrelativeolute !important; 
+    bottom: 43px !important;
+  }
+}
+
+._tooltip_181xn_903 {
+  position: absrelativeolute !important; 
+  bottom: 43px !important;
 }
 
 /* chat ou redirecionamento */
