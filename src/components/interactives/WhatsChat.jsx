@@ -16,13 +16,13 @@ export default function WhatsChat({ Chat }) {
           notificationDelay={5}
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
-          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo?"
+          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo"
           initialMessageByClient="Hello! I found your contact on your website. I would like to chat with you about..."
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
             <p className="text-paragraph4">
-              Gostaria de falar com um Advogado <br /> Trabalhista agora mesmo?
+              Disponível <strong>24h</strong>
             </p>
           }
           allowEsc={true}
