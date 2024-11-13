@@ -5,10 +5,10 @@ import content from "../../content/content";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-export default function WhatsChat({ noChat }) {
+export default function WhatsChat({ Chat }) {
   return (
     <div>
-      {noChat ? (
+      {Chat ? (
         <FloatingWhatsApp
           status="w-3"
           chatboxHeight="auto"
@@ -22,7 +22,7 @@ export default function WhatsChat({ noChat }) {
           startChatText="Falar no whatsapp"
           tooltipText={
             <p className="text-paragraph4">
-              Atendimento<strong> 24h</strong>
+              Gostaria de falar com um Advogado <br /> Trabalhista agora mesmo?
             </p>
           }
           allowEsc={true}
