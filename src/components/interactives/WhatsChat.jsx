@@ -16,7 +16,7 @@ export default function WhatsChat({ Chat }) {
           notificationDelay={5}
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
-          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo"
+          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo 👇"
           initialMessageByClient="Hello! I found your contact on your website. I would like to chat with you about..."
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
@@ -26,14 +26,14 @@ export default function WhatsChat({ Chat }) {
             </p>
           }
           allowEsc={true}
-          className="floating-chat"
+          className=""
         />
       ) : (
         <a
           href={whatsappContactLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="floating-chat whatsapp-redirect"
+          className="whatsapp-redirect"
         >
           <FloatingWhatsApp
             phoneNumber={whatsappContactLink}
