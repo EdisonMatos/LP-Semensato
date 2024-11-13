@@ -67,7 +67,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Lúcio Semenssato",
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "semenssato.com.br", // Sem "www"
   phone: {
     ddd: "14",
     firstPart: "99810", // Apenas os 5 primeiros números (incluindo o 9)

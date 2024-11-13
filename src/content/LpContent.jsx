@@ -11,7 +11,7 @@ const infos = {
     secondPart: "1526", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "semenssato.com.br", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
