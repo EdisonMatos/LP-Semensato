@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import imgProfilePicture from "../../assets/imgs/about/profile.jpg";
 import "../../../src/index.css";
@@ -5,14 +6,25 @@ import content from "../../content/content";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
-// eslint-disable-next-line react/prop-types
 export default function WhatsChat({ Chat }) {
+  const [chatVisible, setChatVisible] = useState(true);
+
+  const handleChatClose = () => {
+    // Oculta o chat e permite que a notificação reapareça
+    setChatVisible(false);
+
+    // Reaparece o chat para mostrar a notificação
+    setTimeout(() => {
+      setChatVisible(true);
+    }, 1000); 
+  };
+
   return (
     <div className="">
-      {Chat ? (
+      {Chat && chatVisible ? (
         <FloatingWhatsApp
           className="bg-red-900 p-[200px]"
-          style={{ padding: "10px", background: "black", position: "relative" }} // Alinhamento relativo
+          style={{ padding: "10px", background: "black", position: "relative" }}
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsappContactLink}
@@ -24,10 +36,12 @@ export default function WhatsChat({ Chat }) {
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
-            <p className="text-paragraph4">Gostaria de falar com um Advogado Trabalhista agora
-                mesmo?</p>
+            <p className="text-paragraph4">
+              Gostaria de falar com um Advogado Trabalhista agora mesmo?
+            </p>
           }
           allowEsc={true}
+          onClose={handleChatClose}
         />
       ) : (
         <a
@@ -39,13 +53,13 @@ export default function WhatsChat({ Chat }) {
           <FloatingWhatsApp
             phoneNumber={whatsappContactLink}
             accountName="Dr. Lúcio Semenssato"
-            avatar={imgProfilePicture}
+            notificationDelay={5}
             tooltipText={
               <p className="text-paragraph4">
-                Gostaria de falar com um Advogado Trabalhista agora
-                mesmo?{" "}
+                Gostaria de falar com um Advogado Trabalhista agora mesmo?
               </p>
             }
+            avatar={imgProfilePicture}
             chatboxHeight={0}
           />
         </a>
