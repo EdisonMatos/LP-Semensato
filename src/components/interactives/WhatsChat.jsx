@@ -5,11 +5,14 @@ import content from "../../content/content";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
+// eslint-disable-next-line react/prop-types
 export default function WhatsChat({ Chat }) {
   return (
-    <div>
+    <div className="">
       {Chat ? (
         <FloatingWhatsApp
+          className="bg-red-900 p-[200px]"
+          style={{ padding: "10px", background: "black", position: "relative" }} // Alinhamento relativo
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsappContactLink}
@@ -21,12 +24,10 @@ export default function WhatsChat({ Chat }) {
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
-            <p className="text-paragraph4">
-              Gostaria de falar com um Advogado <br /> Trabalhista agora mesmo?
-            </p>
+            <p className="text-paragraph4">Gostaria de falar com um Advogado Trabalhista agora
+                mesmo?</p>
           }
           allowEsc={true}
-          className="floating-chat"
         />
       ) : (
         <a
@@ -41,7 +42,8 @@ export default function WhatsChat({ Chat }) {
             avatar={imgProfilePicture}
             tooltipText={
               <p className="text-paragraph4">
-                Atendimento<strong> 24h</strong>
+                Gostaria de falar com um Advogado Trabalhista agora
+                mesmo?{" "}
               </p>
             }
             chatboxHeight={0}
