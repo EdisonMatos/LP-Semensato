@@ -11,7 +11,7 @@ const infos = {
     secondPart: "1526", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "semenssato.com.br", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -140,6 +140,61 @@ const LpContent = {
         description:
           "Se o valor da pensão é insuficiente ou o pedido foi negado, conte com suporte especializado para garantir uma revisão justa e assegurar os direitos da sua família.",
       },
+      card5: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-calculator"
+          >
+            <rect width="16" height="20" x="4" y="2" rx="2" />
+            <line x1="8" x2="16" y1="6" y2="6" />
+            <line x1="16" x2="16" y1="14" y2="18" />
+            <path d="M16 10h.01" />
+            <path d="M12 10h.01" />
+            <path d="M8 10h.01" />
+            <path d="M12 14h.01" />
+            <path d="M8 14h.01" />
+            <path d="M12 18h.01" />
+            <path d="M8 18h.01" />
+          </svg>
+        ),
+        title: "Correção de valores",
+        description:
+          "Faça a revisão dos valores do pagamento de pensão para verificar se estão corretos. Caso não estejam, é perfeitamente viável a cobrança da quantia não paga. Pensões desatualizadas são mais comuns do que parecem.",
+      },
+      card6: {
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-hand-coins"
+          >
+            <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+            <path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+            <path d="m2 16 6 6" />
+            <circle cx="16" cy="9" r="2.9" />
+            <circle cx="6" cy="5" r="3" />
+          </svg>
+        ),
+        title: "Ocultação de renda",
+        description:
+          "O responsável pelo pagamento da pensão está ocultando a renda para pagar menos do que deveria? Não deixe isso acontecer. Faça uma averiguação da situação e lute pelos seus direitos.",
+      },
     },
   },
   about: {
@@ -155,15 +210,14 @@ const LpContent = {
     paragraph: (
       <p>
         Na minha rotina diária, entendo que rapidez é fundamental para nossos
-        clientes, especialmente em questões previdenciárias. Por isso, atuo de
-        forma ágil e estratégica, sem comprometer a qualidade. Com foco em
-        garantir que seus direitos sejam resguardados com eficiência e
-        determinação.
+        clientes, especialmente em questões de família. Por isso, atuo de forma
+        ágil e estratégica, sem comprometer a qualidade. Com foco em garantir
+        que seus direitos sejam resguardados com eficiência e determinação.
         <br />
         <br /> Independentemente do seu problema previdenciário, estou pronto
-        para oferecer a melhor solução jurídica. Entre em contato com Juliano
-        Aleixo Advocacia e veja como podemos ser decisivos na defesa dos seus
-        direitos.
+        para oferecer a melhor solução jurídica. Entre em contato com Lúcio
+        Semenssato Advocacia e veja como podemos ser decisivos na defesa dos
+        seus direitos.
       </p>
     ),
     buttonLabel: "Falar com especialista",
@@ -281,7 +335,8 @@ const LpContent = {
     bgImg: bgImg,
     sectionHeader: {
       miniTag: "NÃO PERCA MAIS TEMPO",
-      title: "Garanta sua pensão alimentícia agora mesmo!",
+      title:
+        "Tire suas dúvidas agora mesmo e garanta que seus direitos sejam respeitados",
       subtitle: `O escritório Lúcio Semenssato Advocacia está aqui para defender seus direitos. Com nossa especialização em ações de pensão alimentícia, orientamos você em todas as etapas para assegurar que a pensão seja concedida de forma justa e rápida. Não deixe que questões financeiras ou burocráticas atrapalhem o acesso ao suporte que você e sua família merecem.`,
     },
     buttonLabel: "Quero falar com um especialista",

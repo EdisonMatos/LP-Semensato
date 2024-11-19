@@ -71,11 +71,7 @@ export default function WhatsChat({ Chat }) {
           startChatText="Falar no whatsapp"
           tooltipText={
             <p className="text-paragraph4">
-              Gostaria de falar com um Advogado Trabalhista agora mesmo?
-            </p>
-          }
-          allowEsc={true}
-          onClose={handleChatClose}
+
         />
       ) : (
         <a
