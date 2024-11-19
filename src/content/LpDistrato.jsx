@@ -11,7 +11,7 @@ const infos = {
     secondPart: "1526", // Apenas os 4 últimos números
   },
   email: "contato", // Email desejado pelo cliente
-  domain: "A Definir", // Sem "www"
+  domain: "semenssato.com.br", // Sem "www"
   instagramProfile: "A Definir", // Sem o @
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -70,7 +70,7 @@ const LpContent = {
         ),
         title: "Análise",
         description:
-          "Exame detalhado do contrato para identificar as condições de devolução e os direitos do cliente, oferecendo uma visão clara das opções disponíveis.",
+          "Exame detalhado do contrato para identificar as melhores soluções ao cliente, oferecendo visão clara das opções disponíveis.",
       },
       card2: {
         icon: (
@@ -118,7 +118,7 @@ const LpContent = {
         ),
         title: "Elaboração",
         description:
-          "Preparamos um termo de distrato, formalizando a devolução do imóvel ou terreno e o encerramento do financiamento de forma legal e segura.",
+          "Revisão da minuta do termo de devolução, para verificação das cláusulas contratuais, condições de pagamento e devolução de valores.",
       },
       card4: {
         icon: (
@@ -143,7 +143,7 @@ const LpContent = {
         ),
         title: "Assessoramento Jurídico",
         description:
-          "Após a assinatura do distrato, continuaremos assessorando o cliente, garantindo que todos os procedimentos sejam cumpridos e que o cliente recupere possíveis valores pagos a mais durante o financiamento.",
+          "Não sendo viabilizado o acordo justo e equilibrado, ajuizar ação em busca dos direitos do consumidor, para suspender o pagamento da parcela do contrato e viabilizar a  restituição dos valores pagos.",
       },
     },
   },
