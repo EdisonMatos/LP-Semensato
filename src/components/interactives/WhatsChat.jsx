@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import imgProfilePicture from "../../assets/imgs/about/profile.jpg";
@@ -6,6 +7,7 @@ import content from "../../content/content";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
+// eslint-disable-next-line react/prop-types
 export default function WhatsChat({ Chat }) {
   const [chatVisible, setChatVisible] = useState(true);
   const [resetKey, setResetKey] = useState(0); // Chave para reiniciar o FloatingWhatsApp no redirecionamento
