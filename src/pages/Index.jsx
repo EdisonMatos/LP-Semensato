@@ -18,6 +18,7 @@ import WhatsChat from "../components/interactives/WhatsChat";
 // Para ativar o endereço no Footer, adicionar (addres={true}) para informações de observação e remover para desativar.
 // Para ativar o modo LightMode na Navbar copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
 // Para ativar o modo LightMode no Footer copie e cole: LightMode={true} e para desativar o modo LightMode Remova.
+// Para alternar entre chatbox ou redirecionamento para whatsapp no WhatsChat, basta colocar true para chatbox e false para optar pelo redirecionamento
 
 export default function Index() {
   return (
@@ -31,7 +32,7 @@ export default function Index() {
       <Steps />
       <Faq />
       <FooterSocial obs={false} addres={false} />
-      <WhatsChat Chat={true}/>
+      <WhatsChat Chat={false}/>
       {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
     </div>
