@@ -12,11 +12,9 @@ export default function WhatsChat({ Chat }) {
   const [chatVisible, setChatVisible] = useState(true);
   const [resetKey, setResetKey] = useState(0); // Chave para reiniciar o FloatingWhatsApp no redirecionamento
 
-  
   const handleChatClose = () => {
     setChatVisible(false);
 
-   
     setTimeout(() => {
       setChatVisible(true);
       setResetKey((prev) => prev + 1);
@@ -28,7 +26,6 @@ export default function WhatsChat({ Chat }) {
     e.preventDefault(); // Impede o comportamento padrão do link que redireciona apenas
     setChatVisible(false);
 
-   
     window.open(whatsappContactLink, "_blank");
 
     // Força o reset do Floating ao retornar para a aba do site novamente
@@ -103,5 +100,5 @@ export default function WhatsChat({ Chat }) {
         </a>
       )}
     </div>
-  );
+  )
 }
