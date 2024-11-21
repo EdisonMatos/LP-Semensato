@@ -53,7 +53,7 @@ export default function WhatsChat({ Chat }) {
       {Chat && chatVisible ? (
         <FloatingWhatsApp
           key={resetKey} // Força a reinicialização do componente
-          className="bg-red-900 p-[200px]"
+          className=""
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsappContactLink}
