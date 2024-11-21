@@ -32,7 +32,7 @@ export default function Index() {
       <Steps />
       <Faq />
       <FooterSocial obs={false} addres={false} />
-      <WhatsChat Chat={true}/>
+      <WhatsChat Chat={false}/>
       {/* <FloatingWhatsappButton /> */}
       <BackToTopButton />
     </div>
