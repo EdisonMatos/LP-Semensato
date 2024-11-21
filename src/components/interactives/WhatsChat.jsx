@@ -14,11 +14,10 @@ export default function WhatsChat({ Chat }) {
 
   const handleChatClose = () => {
     setChatVisible(false);
-
     setTimeout(() => {
       setChatVisible(true);
       setResetKey((prev) => prev + 1);
-    }, 1000);
+    }, 3000);
   };
 
   const handleLinkClick = (e) => {
@@ -30,7 +29,7 @@ export default function WhatsChat({ Chat }) {
     setTimeout(() => {
       setChatVisible(true);
       setResetKey((prev) => prev + 1); // Reinicia o componente
-    }, 1000);
+    }, 5000);
   };
 
   useEffect(() => {
@@ -57,7 +56,7 @@ export default function WhatsChat({ Chat }) {
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsappContactLink}
-          notificationDelay={5}
+          notificationDelay={3}
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
           initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo 👇"
@@ -65,6 +64,7 @@ export default function WhatsChat({ Chat }) {
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={<p className="text-paragraph4">Gostaria de falar com um Advogado Trabalhista agora mesmo?</p>}
+          onClose={handleChatClose}
         />
       ) : (
         <a
