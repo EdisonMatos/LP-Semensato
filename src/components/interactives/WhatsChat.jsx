@@ -59,11 +59,11 @@ export default function WhatsChat({ Chat }) {
           notificationDelay={3}
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
-          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo 👇"
+          initialMessageByServer="Disponivel"
           initialMessageByClient="Hello! I found your contact on your website. I would like to chat with you about..."
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
-          tooltipText={<p className="text-paragraph4 w-full">Gostaria de falar com um Advogado Trabalhista agora mesmo?</p>}
+          tooltipText={<p className="text-paragraph4">Disponivel</p>}
           onClose={handleChatClose}
         />
       ) : (
@@ -79,7 +79,7 @@ export default function WhatsChat({ Chat }) {
             phoneNumber={whatsappContactLink}
             accountName="Dr. Lúcio Semenssato"
             notificationDelay={5}
-            tooltipText={<p className="text-paragraph4">Gostaria de falar com um Advogado Trabalhista agora mesmo?</p>}
+            tooltipText={<p className="text-paragraph4">Disponivel</p>}
             avatar={imgProfilePicture}
             chatboxHeight={0}
           />
