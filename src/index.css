@@ -97,26 +97,27 @@
 }
 
 ._tooltip_181xn_903 {
-  cursor: pointer !important;
-  position: fixed !important; 
+  cursor: cursor-pointer !important;
+  position: fixed !important;
   z-index: 9998 !important;
-  background-color: #f5f7f9;
+  background-color: #f5f7f9 !important;
   color: #475569;
   width: 200px;
   bottom: 35px !important;
   border-radius: 4px;
   font-size: 0.8rem;
-  padding: 0.5rem;
+  padding: 0.8rem 0.5rem 0.5rem 0.5rem !important;
   box-shadow: 2px 4px 12px 3px rgb(0 0 0 / 25%);
-  position: relative; 
+  position: relative;
+  
+  align-items: center !important;
 }
 
 ._tooltipArrow_181xn_935 {
   position: relative !important;
   left: 192px !important;
-  bottom: 14px !important;
+  bottom: 13px !important;
 }
-
 
 .whatsapp-redirect {
   text-decoration: none;
@@ -125,4 +126,8 @@
 
 .whatsapp-redirect .floating-chatbox {
   display: none !important;
+}
+
+.tooltipText span {
+  heigth: 10% !important;
 }
