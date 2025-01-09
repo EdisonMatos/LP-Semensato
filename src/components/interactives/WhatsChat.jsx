@@ -1,7 +1,6 @@
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import imgProfilePicture from "../../assets/imgs/about/profile.jpg";
 import "../../../src/index.css";
-import content from "../../content/content";
 import { infos } from "../../content/content";
 
 const whatsNumber = `${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}`;
@@ -14,7 +13,9 @@ export default function WhatsChat({ Chat }) {
           status="w-3"
           chatboxHeight="auto"
           phoneNumber={whatsNumber}
+          notification={true}
           notificationDelay={5}
+          notificationLoop={2}
           accountName={infos.name}
           avatar={imgProfilePicture}
           initialMessageByServer={infos.whatsChatDefaultMessage}
