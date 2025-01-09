@@ -17,7 +17,7 @@ export default function WhatsChat({ Chat }) {
           accountName="Dr. Lúcio Semenssato"
           avatar={imgProfilePicture}
           initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo 👇"
-          initialMessageByClient="Hello! I found your contact on your website. I would like to chat with you about..."
+          initialMessageByClient="Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas."
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
