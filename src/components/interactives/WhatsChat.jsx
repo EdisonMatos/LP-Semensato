@@ -2,8 +2,9 @@ import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import imgProfilePicture from "../../assets/imgs/about/profile.jpg";
 import "../../../src/index.css";
 import content from "../../content/content";
+import { infos } from "../../content/content";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsNumber = `${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}`;
 
 export default function WhatsChat({ Chat }) {
   return (
@@ -12,12 +13,12 @@ export default function WhatsChat({ Chat }) {
         <FloatingWhatsApp
           status="w-3"
           chatboxHeight="auto"
-          phoneNumber={whatsappContactLink}
+          phoneNumber={whatsNumber}
           notificationDelay={5}
-          accountName="Dr. Lúcio Semenssato"
+          accountName={infos.name}
           avatar={imgProfilePicture}
-          initialMessageByServer="Gostaria de falar com um Advogado Trabalhista agora mesmo? Clique abaixo 👇"
-          initialMessageByClient="Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas."
+          initialMessageByServer={infos.whatsChatDefaultMessage}
+          initialMessageByClient={infos.whatsappDefaultMessage}
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
           tooltipText={
