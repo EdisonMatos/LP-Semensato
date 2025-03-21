@@ -8,48 +8,27 @@ const whatsNumber = `${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.sec
 export default function WhatsChat({ Chat }) {
   return (
     <div>
-      {Chat ? (
-        <FloatingWhatsApp
-          status="w-3"
-          chatboxHeight="auto"
-          phoneNumber={whatsNumber}
-          notification={true}
-          notificationDelay={5}
-          notificationLoop={2}
-          accountName={infos.name}
-          avatar={imgProfilePicture}
-          initialMessageByServer={infos.whatsChatDefaultMessage}
-          initialMessageByClient={infos.whatsappDefaultMessage}
-          statusMessage="Disponível"
-          startChatText="Falar no whatsapp"
-          tooltipText={
-            <p className="text-paragraph4">
-              Disponível <strong>24h</strong>
-            </p>
-          }
-          allowEsc={true}
-          className=""
-        />
-      ) : (
-        <a
-          href={whatsappContactLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-redirect"
-        >
-          <FloatingWhatsApp
-            phoneNumber={whatsappContactLink}
-            accountName="Dr. Lúcio Semenssato"
-            avatar={imgProfilePicture}
-            tooltipText={
-              <p className="text-paragraph4">
-                Atendimento<strong> 24h</strong>
-              </p>
-            }
-            chatboxHeight={0}
-          />
-        </a>
-      )}
+      <FloatingWhatsApp
+        status="w-3"
+        chatboxHeight="auto"
+        phoneNumber={whatsNumber}
+        notification={true}
+        notificationDelay={5}
+        notificationLoop={2}
+        accountName={infos.name}
+        avatar={imgProfilePicture}
+        initialMessageByServer={infos.whatsChatDefaultMessage}
+        initialMessageByClient={infos.whatsappDefaultMessage}
+        statusMessage="Disponível"
+        startChatText="Falar no whatsapp"
+        tooltipText={
+          <p className="text-paragraph4">
+            Disponível <strong>24h</strong>
+          </p>
+        }
+        allowEsc={true}
+        className=""
+      />
     </div>
   );
 }
