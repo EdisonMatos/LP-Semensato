@@ -93,7 +93,7 @@ export const infos = {
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    "Gostaria de falar com um advogado trabalhista agora mesmo? Clque abaixo 👇",
+    "Gostaria de falar com um advogado agora mesmo? Clique abaixo 👇",
   slogan: "",
 };
 
