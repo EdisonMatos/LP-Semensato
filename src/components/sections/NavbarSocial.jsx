@@ -105,6 +105,8 @@ export default function NavbarSocial({ LightMode }) {
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
+              width={371}
+              height={101}
               className={`${
                 LightMode
                   ? scrolling

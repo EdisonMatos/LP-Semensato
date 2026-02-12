@@ -1,28 +1,28 @@
-import { Link } from "react-scroll";
-import { Phone } from "lucide-react";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import content, { infos } from "../../content/content";
-import IconButton from "../interactives/IconButton";
-import imgAppStore from "../../assets/imgs/hero/appStore.png";
-import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import SectionArea from "../sectionElements/SectionArea.jsx";
-import SectionWrapper from "../sectionElements/SectionWrapper.jsx";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
-import { FaWhatsapp } from "react-icons/fa";
-import { CalendarCheck2 } from "lucide-react";
-import { MapPin } from "lucide-react";
-import { Mail } from "lucide-react";
-import { classNames } from "primereact/utils";
+import { Link } from 'react-scroll'
+import { Phone } from 'lucide-react'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import content, { infos } from '../../content/content'
+import IconButton from '../interactives/IconButton'
+import imgAppStore from '../../assets/imgs/hero/appStore.png'
+import imgGooglePlay from '../../assets/imgs/hero/googlePlay.png'
+import SectionArea from '../sectionElements/SectionArea.jsx'
+import SectionWrapper from '../sectionElements/SectionWrapper.jsx'
+import SectionShapeDiv from '../sectionElements/SectionShapeDiv'
+import { FaWhatsapp } from 'react-icons/fa'
+import { CalendarCheck2 } from 'lucide-react'
+import { MapPin } from 'lucide-react'
+import { Mail } from 'lucide-react'
+import { classNames } from 'primereact/utils'
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`
 
 export default function FooterSocial({ LightMode, addres, obs }) {
   return (
     <footer
       className={
         LightMode
-          ? "black"
-          : "bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat"
+          ? 'black'
+          : 'bg-gradient-to-b from-bgSectionDark to-black full gap-y-[42px] text-white font-secondFont text-left text-paragraph4 flex flex-col justify-between items-center bg-cover bg-center bg-no-repeat'
       }
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
@@ -34,6 +34,8 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
+                    width={290}
+                    height={65}
                     // className="max-h-[88px] w-auto  p-[12px]"
                     className="max-h-[88px] w-auto invert"
                     // className="w-[60%] tablet1:w-[50%] desktop1:w-[80%]"
@@ -42,7 +44,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <div className="flex full gap-x-[12px] items-center opacity-90">
-                  <FaWhatsapp size={24} color={LightMode ? "black" : "white"} />
+                  <FaWhatsapp size={24} color={LightMode ? 'black' : 'white'} />
 
                   <a
                     href={whatsappContactLink}
@@ -85,7 +87,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
 
               {obs && (
                 <MotionDivDownToUp>
-                  {" "}
+                  {' '}
                   <div className="flex full gap-x-[12px] items-center opacity-90">
                     <div>
                       <svg
@@ -154,7 +156,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
               <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
-                  {" "}
+                  {' '}
                   <div className="flex gap-[10px] items-center">
                     {/* Instagram icon */}
 
@@ -338,7 +340,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                 target="_blank"
                 href="https://www.paperstreet.com.br"
               >
-                {" "}
+                {' '}
                 {content.texts.infos.footerDivulgacaoText}
               </a>
             </p>
@@ -346,5 +348,5 @@ export default function FooterSocial({ LightMode, addres, obs }) {
         </SectionWrapper>
       </SectionArea>
     </footer>
-  );
+  )
 }

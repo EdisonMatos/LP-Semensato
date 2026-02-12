@@ -1,16 +1,16 @@
-import Navbar from "../components/sections/NavbarSocial";
-import Hero from "../components/sections/Hero";
-import Features from "../components/sections/Features";
-import About from "../components/sections/About";
-import AboutInstagram from "../components/sections/AboutInstagram";
-import Cta from "../components/sections/Cta";
-import Steps from "../components/sections/Steps";
-import Faq from "../components/sections/Faq";
-import FooterSocial from "../components/sections/FooterSocial";
+import Navbar from '../components/sections/NavbarSocial'
+import Hero from '../components/sections/Hero'
+import Features from '../components/sections/Features'
+import About from '../components/sections/About'
+import AboutInstagram from '../components/sections/AboutInstagram'
+import Cta from '../components/sections/Cta'
+import Steps from '../components/sections/Steps'
+import Faq from '../components/sections/Faq'
+import FooterSocial from '../components/sections/FooterSocial'
 
-import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import BackToTopButton from "../components/interactives/BackToTopButton";
-import WhatsChat from "../components/interactives/WhatsChat";
+import FloatingWhatsappButton from '../components/interactives/FloatingWhatsappButton'
+import BackToTopButton from '../components/interactives/BackToTopButton'
+import WhatsChat from '../components/interactives/WhatsChat'
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -23,17 +23,19 @@ export default function Index() {
   return (
     <div>
       <Navbar LightMode={true} />
-      <Hero />
-      <Features modal={false} />
-      <About modal={true} />
-      {/* <AboutInstagram /> */}
-      <Cta />
-      <Steps />
-      <Faq />
-      <FooterSocial obs={false} addres={false} />
-      <WhatsChat Chat={true} />
-      {/* <FloatingWhatsappButton /> */}
-      <BackToTopButton />
+      <main>
+        <Hero />
+        <Features modal={false} />
+        <About modal={true} />
+        {/* <AboutInstagram /> */}
+        <Cta />
+        <Steps />
+        <Faq />
+        <FooterSocial obs={false} addres={false} />
+        <WhatsChat Chat={true} />
+        {/* <FloatingWhatsappButton /> */}
+        <BackToTopButton />
+      </main>
     </div>
-  );
+  )
 }
